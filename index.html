@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <h1>Sign-Up</h1>
+    <Form class="All-content">
+      <p>
+        Fullname: <br />
+        <input type="text" name="Fullname" class="Response-box" />
+      </p>
+      <p>
+        Password: <br />
+        <input type="password" name="Password" class="Response-box" />
+      </p>
+      <p>
+        Confirm Password: <br />
+        <input type="password" name="Confirm Password" class="Response-box" />
+      </p>
+      <p>
+        Email: <br />
+        <input type="email" name="Email" class="Response-box" />
+      </p>
+      <p>
+        Gender: <br />
+
+        <input type="radio" name="Gender" value="Male" />
+        <label for="Gender Type">Male</label>
+
+        <input type="radio" name="Gender" value="Female" />
+        <label for="Gender type">Female</label>
+
+        <input type="radio" name="Gender" value="Others" />
+        <label for="Gender type">Others</label>
+      </p>
+
+      <label for="Security Question">Security Question: <br /> </label>
+
+      <select
+        name="Security Question"
+        id="Security Question"
+        class="Response-box"
+      >
+        <option value="What is the name of your first car?">
+          What is the name of your first car?
+        </option>
+        <option value="What is the name of your favorite pet?">
+          What is the name of your favorite pet?
+        </option>
+        <option value="In what city were you born?">
+          In what city were you born?
+        </option>
+        <option value="What was your favorite food as a child?">
+          What was your favorite food as a child?
+        </option>
+        <option value="What is your mother's maiden name?">
+          What is your mother's maiden name?
+        </option>
+      </select>
+      <br />
+      <textarea
+        name="Security question response"
+        id="security question response"
+        cols="10"
+        rows="5"
+        class="Response-box"
+      >
+      </textarea>
+
+      <p>
+        <input
+          type="checkbox"
+          name="agreement to terms and conditions"
+          value="I agree to accept the Terms and Condition"
+        />
+        <label for="agreement to terms and conditions"
+          >I agree to accept the Terms and Condition</label
+        >
+      </p>
+      <p><input type="submit" value="Register" /></p>
+    </Form>
+  </body>
+</html>
