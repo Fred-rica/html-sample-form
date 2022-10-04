@@ -1,57 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color:rgb(0, 255, 251);
-    display: flex;
-    flex-direction: column;
-   align-items: center;
+.header {
+  color: white;
 }
-input:focus {outline:none;}
-
-.Response-box{
-    width: 90%; 
-    height: 30px;
-    border: 1px solid black; 
-    border-radius: 5px;
-    padding-left: 10px;
+body {
+  background-color: rgb(52, 74, 115);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Tinos", serif;
+}
+input:focus {
+  outline: none;
 }
 
-.text-box{
-    width: 90%;
-    height: 50px;
-    resize: none;
-    border: 1px solid black; 
-    border-radius: 5px;
-    outline: none;
+.input-label {
+  width: 300px;
+  height: 50px;
 }
-.All-content{
-    padding: 20px  30px;
-   border: 1px solid black;
-   border-radius: 5%;
-   width: 300px;
-   height: 85vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding-left: 30px;
-   background-color:aliceblue;
+.Response-box {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
 }
 
-.submit-button{
-    background-color: aqua;
-    height: 30px;
-    border: 1px solid black;
-    width: 80%;
-    border-radius:10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 18px;
-    font-weight: 700;
+.text-box {
+  width: 100%;
+  height: 50px;
+  resize: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
 }
-.submit-button:hover{
-    background-color: aliceblue;
-    
- }
+.All-content {
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 300px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.submit-button {
+  background-color: rgb(52, 74, 115);
+  color: white;
+  height: 30px;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.submit-button:hover {
+  background-color: aliceblue;
+  color: black;
+}

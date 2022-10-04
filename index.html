@@ -8,30 +8,43 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <h1>Sign-Up</h1>
-    <Form class="All-content">
-      
-       <label> Fullname:
-        <input type="text" name="Fullname" class="Response-box" placeholder="e.g Haruna Ciroma Adekunle " />
+    <h1 class="header">Sign-Up</h1>
+    <form class="All-content">
+      <label class="input-label">
+        Fullname:
+        <input
+          type="text"
+          name="Fullname"
+          class="Response-box"
+          placeholder="e.g Haruna Ciroma Adekunle "
+        />
       </label>
 
-      <label > Password: 
-       
+      <label class="input-label">
+        Password:
         <input type="password" name="Password" class="Response-box" />
       </label>
-     
-       <label > Confirm Password: 
+
+      <label class="input-label">
+        Confirm Password:
         <input type="password" name="Confirm Password" class="Response-box" />
       </label>
-      <label>
+
+      <label class="input-label">
         Email:
-        <input type="email" name="Email" class="Response-box" placeholder="e.g elite@gmail.com" />
+        <input
+          type="email"
+          name="Email"
+          class="Response-box"
+          placeholder="e.g elite@gmail.com"
+        />
       </label>
-      <label >
+
+      <label class="input-label">
         Gender: <br />
 
         <input type="radio" name="Gender" value="Male" />
@@ -44,38 +57,39 @@
         <label for="Gender type">Others</label>
       </label>
 
-      <label for="Security Question">Security Question: <br /> 
+      <label for="Security Question" 
+        >Security Question: <br />
 
-      <select
-        name="Security Question"
-        id="Security Question"
-        class="Response-box"
-      >
-        <option value="What is the name of your first car?">
-          What is the name of your first car?
-        </option>
-        <option value="What is the name of your favorite pet?">
-          What is the name of your favorite pet?
-        </option>
-        <option value="In what city were you born?">
-          In what city were you born?
-        </option>
-        <option value="What was your favorite food as a child?">
-          What was your favorite food as a child?
-        </option>
-        <option value="What is your mother's maiden name?">
-          What is your mother's maiden name?
-        </option>
-      </select>
-      <textarea
-        name="Security question response"
-        id="security question response"
-        cols="10"
-        rows="5"
-        class="text-box"
-      >
-      </textarea>
-    </label>
+        <select
+          name="Security Question"
+          id="Security Question"
+          class="Response-box"
+        >
+          <option value="What is the name of your first car?">
+            What is the name of your first car?
+          </option>
+          <option value="What is the name of your favorite pet?">
+            What is the name of your favorite pet?
+          </option>
+          <option value="In what city were you born?">
+            In what city were you born?
+          </option>
+          <option value="What was your favorite food as a child?">
+            What was your favorite food as a child?
+          </option>
+          <option value="What is your mother's maiden name?">
+            What is your mother's maiden name?
+          </option>
+        </select>
+        <textarea
+          name="Security question response"
+          id="security question response"
+          cols="10"
+          rows="5"
+          class="text-box"
+        >
+        </textarea>
+      </label>
 
       <label>
         <input
@@ -88,6 +102,6 @@
         >
       </label>
       <input type="submit" value="Register" class="submit-button" />
-    </Form>
+    </form>
   </body>
 </html>
