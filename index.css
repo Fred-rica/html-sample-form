@@ -13,14 +13,19 @@ input:focus {outline:none;}
 
 .Response-box{
     width: 90%; 
-    height: 30px; 
-    
+    height: 30px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    padding-left: 10px;
 }
 
 .text-box{
     width: 90%;
     height: 50px;
     resize: none;
+    border: 1px solid black; 
+    border-radius: 5px;
+    outline: none;
 }
 .All-content{
     padding: 20px  30px;
@@ -40,10 +45,10 @@ input:focus {outline:none;}
     height: 30px;
     border: 1px solid black;
     width: 80%;
-    border-radius:20%;
+    border-radius:10px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 .submit-button:hover{
