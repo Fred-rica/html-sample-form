@@ -64,3 +64,8 @@ input:focus {
   background-color: aliceblue;
   color: black;
 }
+
+/* For Mobile Devices Only */
+@media only screen and (max-width: 375px){
+    .All-content{width: 100vw;}  
+}
