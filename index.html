@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up Form</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <h1>Sign-Up</h1>
     <Form class="All-content">
-      <p>
-        Fullname: <br />
-        <input type="text" name="Fullname" class="Response-box" />
-      </p>
-      <p>
-        Password: <br />
+      
+       <label> Fullname:
+        <input type="text" name="Fullname" class="Response-box" placeholder="e.g Haruna Ciroma Adekunle " />
+      </label>
+
+      <label > Password: 
+       
         <input type="password" name="Password" class="Response-box" />
-      </p>
-      <p>
-        Confirm Password: <br />
+      </label>
+     
+       <label > Confirm Password: 
         <input type="password" name="Confirm Password" class="Response-box" />
-      </p>
-      <p>
+      </label>
+      <label>
         Email: <br />
-        <input type="email" name="Email" class="Response-box" />
-      </p>
-      <p>
+        <input type="email" name="Email" class="Response-box" placeholder="e.g elite@gmail.com" />
+      </label>
+      <label >
         Gender: <br />
 
         <input type="radio" name="Gender" value="Male" />
@@ -38,9 +42,9 @@
 
         <input type="radio" name="Gender" value="Others" />
         <label for="Gender type">Others</label>
-      </p>
+      </label>
 
-      <label for="Security Question">Security Question: <br /> </label>
+      <label for="Security Question">Security Question: <br /> 
 
       <select
         name="Security Question"
@@ -63,17 +67,17 @@
           What is your mother's maiden name?
         </option>
       </select>
-      <br />
       <textarea
         name="Security question response"
         id="security question response"
         cols="10"
         rows="5"
-        class="Response-box"
+        class="text-box"
       >
       </textarea>
+    </label>
 
-      <p>
+      <label>
         <input
           type="checkbox"
           name="agreement to terms and conditions"
@@ -82,8 +86,8 @@
         <label for="agreement to terms and conditions"
           >I agree to accept the Terms and Condition</label
         >
-      </p>
-      <p><input type="submit" value="Register" /></p>
+      </label>
+      <input type="submit" value="Register" class="submit-button" />
     </Form>
   </body>
 </html>
